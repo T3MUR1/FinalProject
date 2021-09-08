@@ -1,0 +1,358 @@
+.fifthpage {
+    width: 100%;
+    height: 1498px;
+    background-color: white;
+}
+
+.headcontent {
+    margin-left: 733px;
+    margin-top: 134px;
+    width: 406px;
+    height: 105px;
+}
+
+.toptxt {
+    font-size: 16px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    float: left;
+    margin-left: 110px;
+}
+
+.middletxt {
+    font-size: 50px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    transition: 1s;
+}
+
+.middletxt:hover {
+    text-shadow: 0 2px 1px #79a06d, 
+      -1px 3px 1px #82ad75, 
+      -2px 5px 1px #8ebf80;
+    color: red;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.switch {
+    width: 338px;
+    height: 90px;
+    margin-left: 765px;
+    margin-top: 35px;
+}
+
+.month {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    float: left;
+    transition: 0.5s;
+}
+
+.month:hover {
+    font-size: 27px;
+    color: red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.year {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    float: right;
+    margin-left: 25px;
+    transition: 0.5s;
+}
+
+.year:hover {
+    font-size: 27px;
+    color: red;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.bar {
+    background-color: #F2F2F2;
+    width: 120px;
+    height: 27px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 25px;
+    margin-left: 20px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    position: absolute;
+}
+
+.bigcircle {
+    width: 42px;
+    height: 42px;
+    border-radius: 50px;
+    background: linear-gradient(140deg, #80181d, #FF1C26, #C21A22, #910007, #910007);
+    margin-bottom: 3px;
+}
+
+.smallcircle {
+    width: 35.5px;
+    height: 35.5px;
+    background: linear-gradient(60deg, #FF1E1E, #FF1E1E, #C94C52, #FF1C26);
+    border-radius: 50px;
+    margin-left: 3.5px;
+    margin-top: 3px;
+    position: absolute;
+}
+
+.circle {
+    margin-top: -6.5px;
+    transition: 1s ease-in-out;
+}
+
+.circle:hover {
+    transform: translate(85px, 0);
+    cursor: pointer;
+    transition: 1s ease-in-out;
+}
+
+.divs {
+    width: 1252px;
+    height: 868px;
+    margin-left: -50px;
+}
+
+.mid {
+    width: 501px;
+    height: 940px;
+    background: linear-gradient(45deg, #FF1E1E, #DD262F);
+    border-radius: 30px;
+    float: right;
+    margin-top: 75px;
+    margin-right: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.cellular {
+    text-align: center;
+    color: white;
+    font-size: 31px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.stars {
+    margin-top: 19px;
+    margin-left: 165px;
+}
+
+.priceplace {
+    margin-left: 180px;
+    margin-top: 19px;
+    width: 159px;
+    height: 95px;
+}
+
+.price {
+    font-size: 58px;
+    font-family: 'Oswald-Regular', sans-serif;
+    color: white;
+}
+
+.dollar {
+    font-size: 39px;
+    font-family: 'Oswald-Regular', sans-serif;
+    color: white;
+}
+
+.prmonth {
+    font-size: 19px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: -55px;
+    text-align: center;
+}
+
+.checkedcontent {
+    margin-top: 77px;
+}
+
+.checked1 {
+    width: 302px;
+    height: 28px;
+}
+
+.checked {
+    margin-left: 70px;
+    float: left;
+}
+
+.checkedtxt {
+    margin-left: 20px;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    margin-top: 7px;
+    float: right;
+}
+
+.choose {
+    background-color: #ffffff44;
+    width: 266px;
+    height: 65px;
+    border-radius: 50px;
+    margin-left: 118px;
+    margin-top: 84px;
+    border: 1px solid white;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.choose a {
+    text-decoration: none;
+}
+
+.choose:hover {
+    cursor: pointer;
+    transform: scale(1.15, 1.15);
+    transition: 0.5s;
+    border: 1px solid black;
+}
+
+.chooseplan {
+    font-size: 21px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.chooseplan:hover {
+    font-size: 25px;
+    color: red;
+    margin-top: 18px;
+    transition: 0.5s;;
+}
+
+.checked2 {
+    width: 406px;
+    height: 28px;
+}
+
+.mrgntop {
+    margin-top: 27px;
+}
+
+.checked3 {
+    width: 326px;
+    height: 28px;
+}
+
+.checked4 {
+    width: 465px;
+    height: 28px;
+}
+
+.left {
+    width: 462px;
+    height: 770px;
+    border-radius: 30px 0px 0px 30px;
+    background: #FCFCFC;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    margin-left: 269px;
+    margin-top: 209px;
+    position: absolute;
+}
+
+.txtcolor {
+    color: black;
+}
+
+.additionalmrgn {
+    margin-left: -10px;
+}
+
+.professional {
+    color: black;
+    margin-top: 100px;
+}
+
+.redstars {
+    margin-top: -15px;
+    margin-left: 180px;
+}
+
+.marginright {
+    margin-right: 124px;
+}
+
+.price1 {
+    font-size: 54px;
+    font-family: 'Oswald-Regular', sans-serif;
+    color: black;
+}
+
+.color {
+    color: black;
+}
+
+.mrgnleft {
+    margin-left: 140px;
+    margin-top: -38px;
+}
+
+.choose1 {
+    background-color: #DB0011;
+    width: 186px;
+    height: 50px;
+    border-radius: 33px;
+    margin-left: 160px;
+    margin-top: 40px;
+    transition: 0.5s;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.choose1:hover {
+    transform: scale(1.15, 1.15);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.choose1 a {
+    text-decoration: none;
+}
+
+.chooseplan1 {
+    font-size: 18px;
+    font-family: 'Poppins';
+    color: white;
+    text-align: center;
+    padding-top: 14px;
+    transition: 0.5s;
+}
+
+.chooseplan1:hover {
+    font-size: 20px;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.right {
+    border-radius: 0px 30px 30px 0px;
+    float: right;
+    background-color: white;
+    margin-left: 1231px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    position: absolute;
+    margin-left: 1232px;
+    width: 462px;
+    height: 770px;
+    margin-top: 208px;
+}
+
+.additionalmargin {
+    margin-right: 40px;
+    margin-top: -15px;
+}
+
+.mrgn1 {
+    margin-left: 160px;
+}
